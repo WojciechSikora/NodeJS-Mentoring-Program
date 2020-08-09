@@ -1,0 +1,32 @@
+{
+  "name": "module_1",
+  "version": "1.0.0",
+  "description": "NodeJS_mentoring_program_homework",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "task1": "nodemon ./Task_1.1/index.js",
+    "task2": "nodemon ./Task_1.2/index.js",
+    "task1_babel": "nodemon --exec babel-node ./Task_1.1/index.js",
+    "task2_babel": "nodemon --exec babel-node ./Task_1.2/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/WojciechSikora/NodeJS-Mentoring-Program.git"
+  },
+  "author": "WojciechSikora",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/WojciechSikora/NodeJS-Mentoring-Program/issues"
+  },
+  "homepage": "https://github.com/WojciechSikora/NodeJS-Mentoring-Program#readme",
+  "devDependencies": {
+    "@babel/cli": "^7.10.5",
+    "@babel/core": "^7.11.1",
+    "@babel/node": "^7.10.5",
+    "@babel/preset-env": "^7.11.0",
+    "babel": "^6.23.0",
+    "csvtojson": "^2.0.10",
+    "nodemon": "^2.0.4"
+  }
+}
