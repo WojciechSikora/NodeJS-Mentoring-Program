@@ -7,8 +7,8 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "task1": "nodemon ./Task_1.1/index.js",
     "task2": "nodemon ./Task_1.2/index.js",
-    "task1_babel": "nodemon --exec babel-node ./Task_1.1/index.js",
-    "task2_babel": "nodemon --exec babel-node ./Task_1.2/index.js"
+    "task1_babel": "nodemon --exec babel-node ./Task_1.3/task_1_babel.js",
+    "task2_babel": "nodemon --exec babel-node ./Task_1.3/task_2_babel.js"
   },
   "repository": {
     "type": "git",
@@ -25,7 +25,8 @@
     "@babel/core": "^7.11.1",
     "@babel/node": "^7.10.5",
     "@babel/preset-env": "^7.11.0",
-    "babel": "^6.23.0",
+    "@babel/preset-es2015": "^7.0.0-beta.53",
+    "babel-preset-es2015": "^6.24.1",
     "csvtojson": "^2.0.10",
     "nodemon": "^2.0.4"
   }
